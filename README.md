@@ -73,7 +73,7 @@ An AI-powered fitness coach built with **Jetpack Compose** that generates struct
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/dhruv3011/FitGenieAI.git
 ```
 
 2. Open in **Android Studio**
@@ -81,7 +81,7 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 3. Add your API key in `local.properties`:
 
 ```
-OPENAI_API_KEY=your_key_here
+GEMINI_API_KEY=your_key_here
 ```
 
 4. Run the app 🚀
