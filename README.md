@@ -45,11 +45,9 @@ An AI-powered fitness coach built with **Jetpack Compose** that generates struct
 ## 📦 Project Structure
 
 ```
-- ui/
+- presentation/
   - ChatScreen
-  - ChatRow
-  - SectionCard
-- model/
+- domain/model/
   - ChatMessage
   - Section
 - data/
