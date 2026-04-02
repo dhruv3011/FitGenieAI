@@ -1,6 +1,5 @@
 package com.dhruv.fitgenieai.presentation.viewModel
 
-import android.util.Log.e
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.dhruv.fitgenieai.data.repository.DataState
@@ -98,8 +97,6 @@ Give a practical plan based on:
                                         content = lines.getOrNull(1) ?: ""
                                     )
                                 }
-
-                            //val formatted = sections.joinToString("\n\n")
 
                             val aiMessages = ChatMessage(sections =  sections, isFromUser = false)
 
